@@ -289,4 +289,22 @@ input[type=submit] {
     h1{
      margin-left: 25px;
     }
+
+    /*portfolio*/
+    .work{
+      width:500px;
+      float: none;
+      position: relative;
+      margin: auto;
+    }
+
+    .work:nth-child(even){
+    margin-left: 55px;
+    margin-right: 100px;
+      }
+
+    .work:nth-child(odd){
+      margin-left: 55px;
+    margin-right: 100px;
+    }
 }
