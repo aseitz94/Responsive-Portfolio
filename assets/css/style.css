@@ -224,7 +224,26 @@ input[type=submit] {
 
 /*tablet*/
 @media screen and (max-width: 768px){
+ #logo{
+   margin-left: 20px;
+ }
 
+ nav{
+   margin-right:30px;
+ }
+ 
+  #main-container{
+    padding-top: 20px;
+    max-width:700px;
+  }
+
+  .main-section{
+    margin-top:100px;
+ 
+  }
+  .container{
+     max-width:768px;
+    }
 }
 
 /*mobile phone*/
@@ -307,7 +326,7 @@ input[type=submit] {
       margin-left: 55px;
     margin-right: 100px;
     }
-
+/*contact*/
 label,
 input[type=text],
 input[type=email],
