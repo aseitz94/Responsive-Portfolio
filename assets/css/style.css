@@ -307,4 +307,17 @@ input[type=submit] {
       margin-left: 55px;
     margin-right: 100px;
     }
+
+label,
+input[type=text],
+input[type=email],
+textarea{
+  width: 85%;
+  margin-left: 50px;
+} 
+
+input[type=submit]{
+  margin-left: 50px;
+  margin-bottom: 25px;
+}
 }
